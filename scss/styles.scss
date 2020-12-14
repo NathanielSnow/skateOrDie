@@ -1,0 +1,102 @@
+$fa-font-path:"../../node_modules/font-awesome/fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+@import 'variables';
+// @import 'node_modules/bootstrap/scss/bootstrap';
+// @import 'node_modules/bulma/bulma';
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.navbar-brand {
+  color: #eceeef;
+}
+
+.nav-link{
+  color: #eceeef;
+}
+
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+
+.sectionLight {
+  background-color: #eceeef;
+  padding: 2em;
+}
+
+.sectionDark {
+  background-color: #cccccc;
+  padding: 2rem;
+}
+
+.coolStuffWrapper {
+  margin-top: 20px;
+}
+
+button.coolStuffBtn {
+  background-color: red;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+}
+
+h5.modal-title {
+  margin: auto;
+}
+
+.modelFormWrapper {
+  padding: 2rem;
+}
+
+.imgCenter {
+  display: block;
+  margin: auto;
+}
+
+.btnCenter {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 67%;
+}
+
+.footerImg {
+  padding: 15px;
+}
+
+
+.fa {
+  margin: 10px;
+}
+
+.fa-facebook-square {
+  color: #3b5989;
+}
+
+.fa-google-plus-square{
+  color: #c32f10;
+}
+
+.fa-instagram {
+  color: #ffffff;
+}
+
+.socialWrapper{
+  margin: auto;
+}
+
+.interestBoxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  > div {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      > button {
+          display: block;
+          width: 100%;
+          margin-bottom: 1em;
+      }
+  }
+}
